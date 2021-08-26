@@ -9,6 +9,42 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+/*####### utility classes #######*/
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* --- header styles --- */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,21 +83,23 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* --- footer styles --- */
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right; 
     line-height: 1.5;
     text-align: right; 
 }
@@ -70,32 +108,23 @@ footer a {
     color: #024e76;
 }
 
-section {
-    padding: 60px;
-}
-
-h3 {
-    margin: 0;
-    font-size: 1.4rem;
-}
-
+/* --- hero styles --- */
 .hero {
     background-image: url('../images/hero-bg.jpg');
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-form {
     padding: 20px;
-    width: 500px;
     color: #024e76;
     background-color: #fce138;
     border: solid #024e76 3px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form p {
@@ -124,6 +153,22 @@ h3 {
     font-size: 16px;
 }
 
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
+
+/* --- intro styles --- */
 .intro {
     text-align: center;
 }
@@ -136,6 +181,7 @@ h3 {
     margin: 0 auto;
 }
 
+/* --- steps --- */
 .steps {
     text-align: center;
     background-color: #fce138;
@@ -165,6 +211,7 @@ h3 {
     font-size: 38px;
 }
 
+/* --- trainer styles --- */
 .trainers {
     text-align: center;
 }
@@ -204,33 +251,7 @@ h3 {
     line-height: 1.3;
 }
 
-/*####### utility classes #######*/
-
-.section-title {
-    font-size: 55px;
-    color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
+/* --- contact styles --- */
 .contact {
     background: #024e76;
     text-align: center;
