@@ -261,6 +261,7 @@ footer a {
     background: var(--secondary-color);
     position: absolute;
     left: -29px;
+    top: 1px;
     background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
